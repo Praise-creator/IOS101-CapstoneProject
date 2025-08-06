@@ -26,32 +26,30 @@ Product Spec
 1. User Stories (Required and Optional)
 Required Must-have Stories
 
-User can add ingredients to their pantry
+[x]User can add ingredients to their pantry
 
-User can delete ingredients from their pantry
+[x]User can delete ingredients from their pantry
 
-User can view a list of suggested recipes based on pantry contents
+[x]User can view a list of suggested recipes based on pantry contents
 
-User can view recipe detail with instructions and ingredients
+[x]User can view recipe detail with instructions and ingredients
 
-User can favorite and unfavorite recipes
+[]User can favorite and unfavorite recipes
 
-Favorites tab displays all saved recipes
+[]Favorites tab displays all saved recipes
 
 
 Optional Nice-to-have Stories
 
-User can filter recipes by dietary restrictions (e.g. vegetarian, gluten-free)
+[]User can filter recipes by dietary restrictions (e.g. vegetarian, gluten-free)
 
-User can filter based on how much time they want to spend cooking
+[]xUser can filter based on how much time they want to spend cooking
 
-Pantry auto-suggests ingredients as user types
+[]Pantry auto-suggests ingredients as user types
 
-User can generate a shopping list from missing ingredients
+[]User can generate a shopping list from missing ingredients
 
-Support for barcode scanning to add pantry items
-
-Daily/weekly recipe suggestions via notification
+[]Daily/weekly recipe suggestions via notification
 
 
 2. Screen Archetypes
@@ -106,7 +104,8 @@ Current Working Video:
 
 
 Wireframes
-[Add picture of your hand sketched wireframes in this section] 
+<img width="1368" height="1796" alt="image" src="https://github.com/user-attachments/assets/b38793ed-de06-4b62-a850-677f1aff5df4" />
+ 
 
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
