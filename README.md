@@ -85,6 +85,26 @@ Favorites → Recipe Detail View
 User revisits saved recipes
 
 ...
+
+
+
+
+
+To Run, 
+Go to https://spoonacular.com/food-api/ and get an API key. 
+Then go to RecipesViewController file and add the API key where it says to.
+
+
+
+
+Current Working Video:
+![Kapture 2025-08-06 at 03 40 20](https://github.com/user-attachments/assets/6729c419-3fe2-4115-94b5-237c77d21e50)
+
+
+
+
+
+
 Wireframes
 [Add picture of your hand sketched wireframes in this section] 
 
