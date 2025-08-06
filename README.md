@@ -95,18 +95,19 @@ Then go to RecipesViewController file and add the API key where it says to.
 
 
 
-Current Working Video:
-![Kapture 2025-08-06 at 03 40 20](https://github.com/user-attachments/assets/6729c419-3fe2-4115-94b5-237c77d21e50)
-
-
-
-
 
 
 Wireframes
 <img width="1368" height="1796" alt="image" src="https://github.com/user-attachments/assets/b38793ed-de06-4b62-a850-677f1aff5df4" />
  
 
+Current Working Video:
+![Kapture 2025-08-06 at 03 40 20](https://github.com/user-attachments/assets/6729c419-3fe2-4115-94b5-237c77d21e50)
+
+
+
+
+****
 [BONUS] Digital Wireframes & Mockups
 [BONUS] Interactive Prototype
 Schema
