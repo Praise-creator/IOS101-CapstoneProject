@@ -19,6 +19,8 @@
 		58B64E1D2E3F7C8800D36778 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B64E1C2E3F7C8800D36778 /* RecipesViewController.swift */; };
 		58B64E202E422DFF00D36778 /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B64E1E2E422DFF00D36778 /* RecipeDetailViewController.swift */; };
 		58B64E212E422DFF00D36778 /* RecipeDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58B64E1F2E422DFF00D36778 /* RecipeDetailViewController.xib */; };
+		58D6D2EE2E489F8E00E9A119 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D6D2EC2E489F8E00E9A119 /* FavoritesViewController.swift */; };
+		58D6D2EF2E489F8E00E9A119 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D6D2ED2E489F8E00E9A119 /* FavoritesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		58B64E1C2E3F7C8800D36778 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
 		58B64E1E2E422DFF00D36778 /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		58B64E1F2E422DFF00D36778 /* RecipeDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecipeDetailViewController.xib; sourceTree = "<group>"; };
+		58D6D2EC2E489F8E00E9A119 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		58D6D2ED2E489F8E00E9A119 /* FavoritesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 				58B64E062E3DD03900D36778 /* ViewController.swift */,
 				58B64E082E3DD03900D36778 /* Main.storyboard */,
 				58B64E1E2E422DFF00D36778 /* RecipeDetailViewController.swift */,
+				58D6D2EC2E489F8E00E9A119 /* FavoritesViewController.swift */,
+				58D6D2ED2E489F8E00E9A119 /* FavoritesViewController.xib */,
 				58B64E1F2E422DFF00D36778 /* RecipeDetailViewController.xib */,
 				58B64E0B2E3DD03B00D36778 /* Assets.xcassets */,
 				58B64E0D2E3DD03B00D36778 /* LaunchScreen.storyboard */,
@@ -146,6 +152,7 @@
 				58B64E0F2E3DD03B00D36778 /* LaunchScreen.storyboard in Resources */,
 				58B64E212E422DFF00D36778 /* RecipeDetailViewController.xib in Resources */,
 				58B64E0C2E3DD03B00D36778 /* Assets.xcassets in Resources */,
+				58D6D2EF2E489F8E00E9A119 /* FavoritesViewController.xib in Resources */,
 				58B64E0A2E3DD03900D36778 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -158,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				58B64E172E3DD25A00D36778 /* PantryItem.swift in Sources */,
+				58D6D2EE2E489F8E00E9A119 /* FavoritesViewController.swift in Sources */,
 				58B64E1D2E3F7C8800D36778 /* RecipesViewController.swift in Sources */,
 				58B64E202E422DFF00D36778 /* RecipeDetailViewController.swift in Sources */,
 				58B64E072E3DD03900D36778 /* ViewController.swift in Sources */,

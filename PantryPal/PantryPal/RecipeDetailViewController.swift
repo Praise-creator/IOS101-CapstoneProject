@@ -2,6 +2,8 @@ import UIKit
 
 class RecipeDetailViewController: UIViewController {
     var recipe: Recipe?
+    var isFavorited = false
+
 
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
@@ -28,6 +30,16 @@ class RecipeDetailViewController: UIViewController {
         }
     }
 
+    func setInitialFavoriteState() {
+        guard let recipe = recipe else { return }
+
+        if let data = UserDefaults.standard.data(forKey: "favorites"),
+           let saved = try? JSONDecoder().decode([Recipe].self, from: data) {
+            let isFavorited = saved.contains(where: { $0.id == recipe.id })
+            saveButton.isSelected = isFavorited
+        }
+    }
+
     @IBAction func saveToFavorites(_ sender: UIButton) {
         guard let recipe = recipe else { return }
 
@@ -37,16 +49,21 @@ class RecipeDetailViewController: UIViewController {
             saved = existing
         }
 
-        if !saved.contains(where: { $0.id == recipe.id }) {
+        if sender.isSelected {
+            
+            saved.removeAll(where: { $0.id == recipe.id })
+            sender.isSelected = false
+        } else {
+            
             saved.append(recipe)
-            if let data = try? JSONEncoder().encode(saved) {
-                UserDefaults.standard.set(data, forKey: "favorites")
-                sender.setTitle("❤️ Saved", for: .normal)
-                sender.isEnabled = false
-            }
+            sender.isSelected = true
+        }
+
+        if let data = try? JSONEncoder().encode(saved) {
+            UserDefaults.standard.set(data, forKey: "favorites")
         }
     }
-
+    
     func fetchImage(from url: URL, completion: @escaping (UIImage?) -> Void) {
         URLSession.shared.dataTask(with: url) { data, _, _ in
             if let data = data {
