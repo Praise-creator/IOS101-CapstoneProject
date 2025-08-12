@@ -38,7 +38,7 @@ class RecipesViewController: UIViewController {
     }
 
     func fetchRecipes(ingredients: String) {
-        let apiKey = "a57a991695614ddc817d86730c1f6266"
+        let apiKey = "API_KEY_HERE"
         let urlString = "https://api.spoonacular.com/recipes/findByIngredients?ingredients=\(ingredients)&number=10&apiKey=\(apiKey)"
         
         guard let url = URL(string: urlString.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)!) else { return }
