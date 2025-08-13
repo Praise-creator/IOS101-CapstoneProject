@@ -102,7 +102,8 @@ Wireframes
  
 
 Current Working Video:
-![Kapture 2025-08-06 at 03 40 20](https://github.com/user-attachments/assets/6729c419-3fe2-4115-94b5-237c77d21e50)
+
+![Kapture 2025-08-12 at 23 09 24](https://github.com/user-attachments/assets/ca5fe749-0bac-403d-ae59-40ae27e921da)
 
 
 
